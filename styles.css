@@ -1,0 +1,16 @@
+:root{
+    --red-gradient:#F53838;
+    --bg-white:#F6F6F6;
+    --light-red:#FFECEC;
+    --text-black:#0B132A;
+    --dark-gray:#F8F8F8;
+    --white:#fff;
+}
+
+body{
+    color: var(--text-black);
+}
+
+.container{
+    background-color:var(--bg-white);
+}
