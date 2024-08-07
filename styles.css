@@ -14,3 +14,56 @@ body{
 .container{
     background-color:var(--bg-white);
 }
+
+
+.primary text {
+    color:#0B132A;
+    font-weight: bolder;
+    background: #F53838;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+}
+span{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    text-align: left;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+nav{
+    justify-content: space-between;
+    padding: 15px 38px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #4F5665;
+}
+
+button{
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    top: 45.62px;
+    left: 1140px;
+    gap: 0px;
+    border-radius: 50px ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: var(--red-gradient);
+}
+button > a{
+    color: #F53855;   
+}
