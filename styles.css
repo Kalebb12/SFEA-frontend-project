@@ -125,6 +125,46 @@ gap: 0px;
 opacity: 0px;
 }
 
-@media (min-width:300px) {
     
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 15px 38px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.gap{
+    gap: 40px;
+    justify-content: space-between;
+}
+button{
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    top: 45.62px;
+    left: 1140px;
+    gap: 0px;
+    border-radius: 50px ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: var(--red-gradient);
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
+}
+button > a{
+    color: #F53855;   
 }
