@@ -1,24 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-:root{
-    --red-gradient:#F53838;
-    --bg-white:#F6F6F6;
-    --light-red:#FFECEC;
-    --text-black:#0B132A;
-    --dark-gray:#F8F8F8;
-    --white:#fff;
+
+:root {
+    --red-gradient: #F53838;
+    --bg-white: #F6F6F6;
+    --light-red: #FFECEC;
+    --text-black: #0B132A;
+    --dark-gray: #F8F8F8;
+    --white: #fff;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Rubik", sans-serif;
 }
-body{
+
+body {
     color: var(--text-black);
 }
 
+
+.container {
+    background-color: var(--bg-white);
+}
+.my-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.my-padding{
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.textTypo{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+.weight {
+    font-weight: 500;
+}
+.h3-card {
+    text-align: center;
+}
+#card--h3 {
+    text-align: center;
+    padding: 30px 31.45px;
+}
+#card--p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-section {
+    background-color: var(--white);
+    margin-left: 25px;
+    padding: 79.63px 92.55px 50px ;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    border: 3px solid var(--white);
+    border-radius: 15px;
+}
+#card--button {
+    width: 120px;
+    height: 30px;
+    margin-left: 55px;
+    border: 2px solid var(--red-gradient);
+    background-color: var(--bg-white);
+    border-radius: 20px;
+}
+#cardText2 {
+    text-align: center;
+    padding-top: 100px;
+}
+.cardText{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+}
+.sub-card{
+    gap: 20px;
+}
+.my--color{
+    color: white;
+    background-color:var(--red-gradient) !important;
+
+}
 .container{
     background-color:var(--bg-white);
 }
@@ -174,3 +251,4 @@ button > a{
         display: none;
     }
 }
+
