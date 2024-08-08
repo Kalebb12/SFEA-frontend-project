@@ -23,29 +23,11 @@ body{
     background-color:var(--bg-white);
 }
 
-
-.primary text {
-    color:#0B132A;
-    font-weight: bolder;
-    background: #F53838;
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 23.7px;
-    text-align: left;
-}
-span{
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23.7px;
-    text-align: left;
-
-}
 .flex{
     display: flex;
     align-items: center;
 }
+
 nav{
     justify-content: space-between;
     padding: 15px 38px;
@@ -60,6 +42,10 @@ nav a{
     color: #4F5665;
 }
 
+.gap{
+    gap: 40px;
+    justify-content: space-between;
+}
 button{
     border: 1px solid #F53855;
     width: 150px;
@@ -71,6 +57,10 @@ button{
     border: 1px 0px 0px 0px;
     opacity: 0px;
     color: var(--red-gradient);
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
 }
 button > a{
     color: #F53855;   
