@@ -65,3 +65,9 @@ button:hover{
 button > a{
     color: #F53855;   
 }
+
+@media screen and (max-width:900px) {
+    .hide{
+        display: none;
+    }
+}
