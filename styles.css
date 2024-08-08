@@ -23,6 +23,109 @@ body{
     background-color:var(--bg-white);
 }
 
+.footer{
+    top: 4625.78px;
+    gap: 30px;
+    opacity: 0px;
+    background-color: var(--dark-gray);
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-bottom: 70px;
+    padding-right: 80px;
+    padding-top: 70px;
+}
+
+.vpn{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    text-align: left;
+}
+
+.icons{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.cori{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lvpn{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.last{
+    width: 132px;
+    height: 30px;
+    top: 5017.18px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    color: #AFB5C0;
+}
+
+.flist{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+    gap:10px;
+}
+
+.logo{
+    width: 35px;
+    height: 36.23px;
+    top: 4805.78px;
+    left: 150px;
+    gap: 20px;
+    opacity: 0px;
+}
+
+.wlogo{
+    display: flex;
+    margin-bottom: 26.12px;
+}
+
+h3{
+    margin-top: 25px;
+}
+
+.slogo{
+    width: 30px;
+    height: 30px;
+    top: 4805.78px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 20px;
+}
+
+.i1{
+    width: 33.6px;
+height: 33.6px;
+top: 4953.58px;
+left: 203.6px;
+gap: 0px;
+opacity: 0px;
+}
+
+    
 .flex{
     display: flex;
     align-items: center;
